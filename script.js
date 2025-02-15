@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Too EZ AVA <3";
+  titleElement.innerHTML = "Thank You Queen";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
