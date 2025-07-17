@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Thank You Queen";
+  titleElement.innerHTML = "Thank You B Word";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -45,9 +45,9 @@ function generateMessage(noCount) {
     "No",
     "Are you sure?",
     "Please I didn't mean to",
-    "I'll never do this again",
-    "I promise I wont",
-    "Pokemon Cards and everything you want, I will Provide",
+    "Never again",
+    "Wallahi I wont",
+    "Cmonnn brahhh",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
